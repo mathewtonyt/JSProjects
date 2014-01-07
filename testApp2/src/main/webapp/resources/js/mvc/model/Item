@@ -1,0 +1,2 @@
+var item = Item.find("foo");
+item.destroy();

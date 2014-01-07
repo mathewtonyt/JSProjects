@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<script data-main="js/mvc/loadHelper" src="js/lib/require.js"></script>
+	
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+		<title>To Do Application</title>
+		<meta name="keywords" content=""/>
+		<meta name="description" content=""/>
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet"/>
+		<link href="css/default.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="css/fonts.css" rel="stylesheet" type="text/css" media="all"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+		
+	</head>
+	
+	<body>
+		<div id="header-wrapper">
+			<div id="header" class="container">
+				<div id="logo">
+					<h1>TO DO List</h1>
+				</div>
+				<div id="menu">
+					<ul>
+						<li class="current_page_item">
+							<a href="#" accesskey="1" title="">Homepage</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div>
+			<input type="text" class="box" value="Enter the Item Name" id="todoName"/>
+			<input type="text" class="box" value="Enter the description" id="todoDescription"/>
+			<table id="resultTable" class="sortable resizable editable" border="2">
+				<thead>
+					<tr>
+						<th class="sortfirstdesc"><label>Item Name</label></th>
+						<th><label>Item Description</label></th>
+					</tr>
+				</thead>
+				<tbody id="resultBody">
+					
+				</tbody>
+			</table>
+			<button class="buttonSmall" id="addButton">
+				Add Item
+			</button>
+			<button class="buttonSmall" id="deleteButton">
+				Delete item
+			</button>
+		</div>
+		<div>
+			<div>
+				<hr>
+				<input type="text" class="box" value="Climate Max Value" id="climateMax"/>
+				<button class="buttonSmall" id="climateMaxButton">Check Climate</button>
+			</div>
+			
+			
+		</div>
+	</body>
+</html>
+

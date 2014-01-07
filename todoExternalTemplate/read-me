@@ -1,0 +1,13 @@
+This project uses,
+
+Aim : to create a todo application
+
+Library used : 
+	Jquery
+	Backbone
+	Backbone-localstorage
+	require.js
+	mustache.js
+	
+- tempate is embedded in teh html
+- css handles the hover and other functions

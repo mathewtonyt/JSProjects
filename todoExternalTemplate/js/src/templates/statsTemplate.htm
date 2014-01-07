@@ -1,0 +1,18 @@
+	<!--	2. stats template -->
+	<script type="text/x-mustache-template" id="stats-template">
+		{{#total}}
+		<span class="todo-count">
+			<span class="number">{{remaining}}</span>
+			<span class="word">{{remainingWord}}</span> left.
+		</span>
+		{{/total}}
+		{{#done}}
+		<span class="todo-clear">
+			<a href="#">
+				Clear <span class="number-done">{{ done }}</span>
+				completed <span class="word-done">{{doneWord}}</span>
+			</a>
+		</span>
+		{{/done}}
+	</script>
+	<!--	templates for the application ends -->
